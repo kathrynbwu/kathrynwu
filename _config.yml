@@ -4,9 +4,10 @@ title: "kathryn wu"
 email: "kathryn.b.wu@gmail.com"
 description: "my journey in pixels and HTML"
 url: 
+destination: docs
 
 header_pages:
   - projects.md
   - research.md
   - art.md
-  - writing.md
+  - writing.mddestination: docs

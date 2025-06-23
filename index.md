@@ -5,7 +5,7 @@ layout: home
 <div style="display: flex; align-items: center; justify-content: space-between; gap: 3rem; margin: 4rem 0; flex-wrap: nowrap;">
 
   <div style="flex-shrink: 0;">
-  <img src="{{ '/assets/images/pfp.jpg' | relative_url }}" alt="Kathryn's photo" 
+  <img src="{{ '/assets/images/pfp.jpg' | relative_url }}" alt="Kathryn's photo" />
        style="width: 324px; height: 432px; border: 2px solid black; border-radius: 50%; object-fit: cover;" />
 </div>
 
