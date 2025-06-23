@@ -3,7 +3,7 @@ layout: home
 title: Welcome to my personal site!
 ---
 <div style="display: flex; justify-content: center; margin: 2rem 0;">
-  <img src="/assets/pics/pfpic.jpg" alt="Kathryn's photo" 
+  <img src="/assets/image/pfpgt.jpg" alt="Kathryn's photo" 
        style="border: 4px solid black; border-radius: 6px; max-width: 300px; height: auto;" />
 </div>
 
