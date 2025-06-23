@@ -5,9 +5,10 @@ email: "kathryn.b.wu@gmail.com"
 description: "my journey in pixels and HTML"
 url: 
 destination: docs
+baseurl: "/kathrynwu"
 
 header_pages:
   - projects.md
   - research.md
   - art.md
-  - writing.mddestination: docs
+  - writing.md
