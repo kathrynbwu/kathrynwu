@@ -6,7 +6,7 @@ layout: home
 
 <div style="flex-shrink: 0;">
   <img src="{{ '/assets/images/pfp.jpg' | relative_url }}" alt="Kathryn's photo"
-       style="width: 324px; height: 432px; border: 2px solid black; border-radius: 50%; object-fit: cover;" />
+       style="width: 324px; height: 432px; border: 2px solid #292d51; border-radius: 50%; object-fit: cover;" />
 </div>
 
   <div style="max-width: 600px;">
