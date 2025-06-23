@@ -1,7 +1,12 @@
 theme: minima
 
 title: "kathryn wu"
-author: "me"
 email: "kathryn.b.wu@gmail.com"
-description: "my personal website"
-url: "https://kathryn.com"
+description: "my journey in pixels and HTML"
+url: 
+
+header_pages:
+  - projects.md
+  - research.md
+  - art.md
+  - writing.md
