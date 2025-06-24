@@ -1,0 +1,127 @@
+/* Overall page wrapper */
+.wrapper {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    box-sizing: border-box;
+    word-wrap: break-word;
+  }
+  
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #fffdf5;
+  }
+  
+  .page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow-y: auto;
+  }
+  
+  /* Push footer to bottom if content is short */
+  .page-content {
+    flex: 1;
+    margin-bottom: 2rem;
+  }
+
+  .site-header {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #eeeeee;
+    border-bottom: 1px solid #dedede;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    font-family: serif;
+    position: relative;
+    z-index: 100;
+  }
+  
+  .site-header .wrapper {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 1.8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+  }
+  
+  /* Title and tagline on the left */
+  .site-title {
+    font-weight: 400;
+    font-size: 1.6rem;
+    margin: 0;
+    text-transform: capitalize;
+    white-space: nowrap;
+  }
+  
+  /* Remove underline from link around title */
+  .site-title a {
+    text-decoration: none;
+    color: #292d51;
+  }
+  
+  .site-title a:hover {
+    text-decoration: none;
+    color: #292d51;
+  }
+  
+  /* Tagline beside title */
+  .site-title::after {
+    content: " my journey, rendered in pixels and html";
+    font-weight: 200;
+    font-size: 0.9rem;
+    color: #4f5373!important;
+    margin-left: 8px;
+    text-transform: none;
+  }
+  
+  /* Navigation links on the right */
+  .site-nav {
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem; /* even spacing between links */
+  }
+  
+  /* Nav link styling */
+  .site-nav a {
+    color: #3e4261;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.2rem;
+  }
+  
+  .site-nav a:hover {
+    color: #0d0f1c;
+    text-decoration: none;
+  }
+  
+  .site-footer {
+    width: 100%;
+    background-color: #eeeeee; /* match header */
+    border-top: 1px solid #dedede;
+    padding: 0.6rem 0;          /* thinner height */
+    text-align: center;
+    font-size: 0.85rem;
+    color: #292d51;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.04); /* subtle shadow like header */
+    margin-top: 4rem;
+  }
+  
+  .site-footer a {
+    color: #292d51;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .site-footer a:hover {
+    text-decoration: underline;
+  }
+  
