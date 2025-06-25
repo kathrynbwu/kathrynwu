@@ -15,7 +15,10 @@ layout: home
 
   <div style="max-width: 450px;">
     <p style="font-size: 1.1rem; line-height: 1.6; text-align: center;">
-      Hi, I’m Kathryn Wu, a rising junior who loves making things in many ways, whether it's with machines, words, or art.
+      Hi, I’m Kathryn Wu, a rising junior who loves making things in many ways, whether it's with machines, words, or art. 
+    </p>
+    <p style="font-size: 1.1rem; line-height: 1.6; text-align: center;">
+    This is a documentation of some pretty major pieces of my life.
     </p>
   </div>
 

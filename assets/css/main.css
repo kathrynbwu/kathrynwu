@@ -7,6 +7,7 @@
     padding-right: 1.5rem;
     box-sizing: border-box;
     word-wrap: break-word;
+    letter-spacing: normal;
   }
   
   html, body {
@@ -15,7 +16,33 @@
     padding: 0;
     background-color: #fffdf5;
   }
+
+  body.center-text .page-content {
+    text-align: center;
+    max-width: 120ch; 
+    margin: 0 auto;
+  }
+
+  body.center-text {
+    font-family: serif;
+    letter-spacing: 0.02em; /* subtle enough to restore space after comma */
+    word-spacing: 0.04em;   /* helps spacing overall */
+    font-weight: 400;       /* ensures it doesn't look thinner */
+    -webkit-font-smoothing: subpixel-antialiased; /* preserves original weight */
+  }
   
+  
+body.center-text .page-content p,
+body.center-text .page-content ul,
+body.center-text .page-content li,
+body.center-text .page-content a {
+  text-align: center;
+}
+
+body.center-text .page-content ul {
+    list-style-position: inside;
+    padding-left: 0;
+  }
   .page-container {
     display: flex;
     flex-direction: column;

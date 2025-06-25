@@ -1,6 +1,7 @@
 ---
 layout: neuralpage
 title: Week 3
+week: 3
 permalink: /research/neuralengineering/week3/
 nav_exclude: true
 ---
