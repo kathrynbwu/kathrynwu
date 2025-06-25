@@ -3,6 +3,7 @@ theme: minima
 title: "Kathryn Wu"
 tagline: "my journey, rendered in pixels and html"
 url: "https://kathrynbwu.github.io"
+email: kathryn.b.wu@gmail.com
 baseurl: "/kathrynwu"
 
 header_pages:

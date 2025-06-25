@@ -25,15 +25,44 @@
   
   /* Push footer to bottom if content is short */
   .page-content {
+    color: #292d51;
     flex: 1;
+    max-width: 700px;
     margin-bottom: 2rem;
+  }
+  
+  .page-content h1 {
+    font-weight: 500;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .page-content p {
+    text-align: left;      /* left align body paragraphs */
+  }
+
+  .page-content a {
+    color: #5e67ba;            
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s ease; 
+  }
+  
+  .page-content a:hover {
+    color: #1d203f;          
+    text-decoration: none;
+  }
+
+  .center-text {
+    text-align: center;
   }
 
   .site-header {
     width: 100%;
     margin: 0;
     padding: 0;
-    background-color: #eeeeee;
+    background-color: #f1f1f1;
     border-bottom: 1px solid #dedede;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
     font-family: serif;
@@ -105,8 +134,8 @@
   
   .site-footer {
     width: 100%;
-    background-color: #eeeeee; /* match header */
-    border-top: 1px solid #dedede;
+    background-color: #fffdf5; /* match header */
+    border-top: 1px solid #e5e5e5;
     padding: 0.6rem 0;          /* thinner height */
     text-align: center;
     font-size: 0.85rem;
@@ -125,3 +154,216 @@
     text-decoration: underline;
   }
   
+  aside ul li a {
+    color: #404784;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  aside ul li a:hover {
+    color: #0d0f1c;
+    text-decoration: none;
+  }
+  
+  .sidebar {
+    min-width: 200px;
+    background-color: #f1f1f1;
+    border-right: 1px solid #e0e0e0;
+    padding-right: 1rem;
+    padding-left: 0.5rem;
+  }
+
+  .sidebar a {
+    color: #3e4261;
+    text-decoration: none;
+    font-weight: 500;
+    display: block;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    transition: background-color 0.2s ease;
+  }
+  
+  .sidebar a:hover {
+    background-color: #e4e4e4;
+  }
+  
+  .sidebar a.active-link {
+    background-color: #191c32;
+    color: white;
+  }
+
+  .sidebar-item .collapsible {
+    display: flex;               /* use flexbox */
+    align-items: center;         /* vertical center text */
+    padding: 0.5rem 1rem;        /* vertical and horizontal padding */
+    width: 100%;
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: left;            /* keep text left aligned if you want */
+  }
+  
+  .sidebar-item .collapsible:hover {
+    background-color: #cecece;      /* darkened block on hover */
+    color: #191c32;                /* optional: change text color on hover */
+  }  
+
+  .sidebar-item.active-week > button,
+.sidebar-item.active-week > a {
+  background-color: #cecece;  /* dark block */
+  color: #191c32;            /* white text */
+}
+
+.sidebar-item.active-week > button .arrow,
+.sidebar-item.active-week > a {
+  color: #191c32;          
+}
+  
+  .collapsible {
+    background: none;
+    border: none;
+    padding: 0;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #3e4261;
+    cursor: pointer;
+    text-align: left;
+    width: 100%;
+  }
+  
+  .collapsible:hover {
+    color: #0d0f1c;
+  }
+  
+  .collapsible-content {
+    display: none;
+    margin-left: 1rem;
+    padding-left: 0.5rem;
+    border-left: 2px solid #e0e0e0;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding-left: 2rem;
+    margin: 0;
+  }
+  
+  .sidebar li {
+    list-style: none;
+  }
+
+  .sidebar-item.active .collapsible-content {
+    display: block;
+  }
+  
+  .sidebar-list a {
+    text-decoration: none;
+    color: #3e4261;
+    font-weight: 500;
+  }
+  
+  .sidebar-list a:hover {
+    color: #0d0f1c;
+  }
+
+  .sidebar a.active-link {
+    background-color: #e4e4e4;
+    border-radius: 4px;
+    padding: 0.25rem 0.5rem;
+    display: inline-block;
+  }
+  
+  .sidebar a:hover {
+    background-color: #d2d2d2; /* slightly darker on hover */
+    text-decoration: none;
+  }
+
+  .sidebar {
+    min-width: 200px;
+    max-height: 80vh;
+    overflow-y: auto;
+    background-color: #f1f1f1;
+    border-right: 1px solid #e0e0e0;
+    padding-right: 1rem;
+    padding-left: 0.5rem;
+  }
+  
+
+  .sidebar {
+    min-width: 200px;
+    max-height: 80vh;
+    overflow-y: auto;
+    background-color: #f1f1f1;
+    border-right: 1px solid #e0e0e0;
+    padding-right: 1rem;
+    padding-left: 0.5rem;
+  }
+
+  .collapsible {
+    background: none;
+    border: none;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #3e4261;
+    cursor: pointer;
+    text-align: left;
+    width: 100%;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    font-family: serif;
+  }
+  
+  .arrow {
+    display: inline-block;
+    transition: transform 0.2s ease;
+    font-size: 1rem; /* modern size, not tiny */
+    margin-right: 0.5rem;
+    font-family: serif;
+  } 
+  
+  .collapsible-content {
+    display: none;
+    margin-left: 1.3rem;
+    padding-left: 0.5rem;
+    border-left: 2px solid #e0e0e0;
+    margin-top: 0.2rem;
+  }
+
+  .sidebar-item.expanded .collapsible-content {
+    display: block;
+  }
+
+  .sidebar-item.expanded .arrow {
+    transform: rotate(90deg);
+  }
+  
+  .sidebar-item {
+    margin-bottom: 1rem; /* space between weeks */
+  }
+  
+  .collapsible {
+    font-family: serif; /* keep consistent font */
+    cursor: pointer;
+    background: none;
+    border: none;
+    padding: 0;
+    font-size: 1rem;
+  }
+  
+  .collapsible-content li a {
+    font-family: serif; /* day font */
+    font-size: 0.9rem;
+    margin-left: 1.2rem;
+    display: block;
+    padding: 0.15rem 0;
+  }  
+  
+.page-content h2, 
+.page-content h3, 
+.page-content h4 {
+  font-weight: 500;
+  font-size: 1.4rem;
+  text-align: center;
+}
