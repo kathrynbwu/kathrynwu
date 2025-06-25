@@ -39,7 +39,7 @@
   }
   
   .page-content p {
-    text-align: left;      /* left align body paragraphs */
+    text-align: left;
   }
 
   .page-content a {
@@ -53,6 +53,12 @@
     color: #1d203f;          
     text-decoration: none;
   }
+
+.page-content ul li,
+.page-content ol li {
+  margin-bottom: .4rem; /* increase as needed */
+  line-height: 1.2; /* optional: for better vertical spacing */
+}
 
   .center-text {
     text-align: center;

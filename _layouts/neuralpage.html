@@ -29,9 +29,9 @@
         {% assign pages_list = site.pages | where_exp: "item", "item.url contains '/neuralengineering/'" %}
         {% for subpage in pages_list %}
           <li class="sidebar-item {% if page.url == subpage.url %}active-week{% endif %}">
-            <button class="collapsible" onclick="toggleCollapse(this)">
-              <span class="arrow">›</span> {{ subpage.title }}
-            </button>
+            <a class="collapsible-link" href="{{ subpage.url | relative_url }}">
+                <span class="arrow">›</span> {{ subpage.title }}
+              </a>
 
             {% if subpage.url contains 'week1' %}
               <ul class="collapsible-content">
@@ -139,6 +139,22 @@
         arrow.style.transform = "rotate(0deg)";
       }
     }
+    document.querySelectorAll('.collapsible-link').forEach(link => {
+  link.addEventListener('click', function(e) {
+    const parentItem = link.closest('.sidebar-item');
+    const alreadyExpanded = parentItem.classList.contains('expanded');
+
+    // If already expanded, just navigate.
+    if (alreadyExpanded) return;
+
+    // Otherwise toggle the expansion
+    e.preventDefault(); // prevent nav
+    parentItem.classList.toggle('expanded');
+
+    const arrow = link.querySelector('.arrow');
+    arrow.style.transform = parentItem.classList.contains('expanded') ? "rotate(90deg)" : "rotate(0deg)";
+  });
+});
   </script>  
 </body>
 </html>
