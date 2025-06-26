@@ -1,7 +1,7 @@
 ---
 layout: neuralpage
 title: Overview
-week: 0
+week_order: 0
 permalink: /research/neuralengineering/
 nav_exclude: true
 ---

@@ -1,7 +1,7 @@
 ---
 layout: neuralpage
 title: Week 8
-week: 8
+week_order: 8
 permalink: /research/neuralengineering/week8/
 nav_exclude: true
 ---
