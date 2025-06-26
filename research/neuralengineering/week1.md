@@ -178,13 +178,11 @@ Khayzaran gave an overview and here are some things she mentioned that I found t
 ### Chamber Punching
 
 We ended up leaving it overnight until the next day. After we took it out, we removed it from the plastic boat with a blade, careful not to damage the wafer. The wafer was stored face down. Using a biopsy punch, one side was flattened using punch shaping pliers, kind of like a stepper motor. We used it, lined up with the squares above the microchannels, to create chambers where the two ends of the neuron would be accessible.
-
-<div style="display: flex; gap: 1rem; margin-bottom: 1rem;">
+<div class="responsive-images" style="display: flex; gap: 1rem; margin-bottom: 1rem;">
   <div style="flex-shrink: 0;">
     <img 
       src="{{ '/assets/images/neuroengineering/week1/8.jpg' | relative_url }}" 
       alt="image 8" 
-      height="200" 
       style="border: 1px solid #292d51; object-fit: cover;" 
     />
   </div>
@@ -193,7 +191,6 @@ We ended up leaving it overnight until the next day. After we took it out, we re
     <img 
       src="{{ '/assets/images/neuroengineering/week1/9.jpg' | relative_url }}" 
       alt="image 9" 
-      height="200"  
       style="border: 1px solid #292d51; object-fit: cover;" 
     />
   </div>
@@ -202,11 +199,11 @@ We ended up leaving it overnight until the next day. After we took it out, we re
     <img 
       src="{{ '/assets/images/neuroengineering/week1/10.jpg' | relative_url }}" 
       alt="image 10" 
-      height="200"  
       style="border: 1px solid #292d51; object-fit: cover;" 
     />
   </div>
 </div>
+
 
 At home, I took [notes](https://docs.google.com/document/d/1Sw9Zz--_HRq0oIPvdEJ5EsF6MwVBZsw5PBZdxesqsBw/edit?tab=t.0#heading=h.9xf0w8muzz4n) on the [Electrical stimulation enhances mitochondrial trafficking as a neuroprotective mechanism against chemotherapy-induced peripheral neuropathy](https://www.cell.com/action/showPdf?pii=S2589-0042%2824%2900273-6#page=11.61) paper.
 
