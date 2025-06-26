@@ -1,5 +1,6 @@
 ---
 layout: home
+body_class: center-text
 ---
 
 <h1 style="max-width: 900px; margin: 4rem auto 2rem auto; font-weight: 500; text-align: center;">

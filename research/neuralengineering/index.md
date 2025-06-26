@@ -6,7 +6,7 @@ permalink: /research/neuralengineering/
 nav_exclude: true
 ---
 
-This is the documentation of my learning, work, and research in [Dr. In Hong Yang](https://coefs.charlotte.edu/iyang3/)'s lab. Use the sidebar to explore weekly and daily entries.
+This is the documentation of my learning, work, and research in [Dr. In Hong Yang](https://coefs.charlotte.edu/iyang3/){:target="_blank" rel="noopener"}'s lab. Use the sidebar to explore weekly and daily entries.
 
 .
 

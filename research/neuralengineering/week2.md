@@ -122,7 +122,7 @@ Limitations
 ---
 ## Day 3 ∙ Jun 25 {#day-3}
 ---
-### Washing Day: Cleaning Cycles and Prrepping
+### Coating Day: Cleaning Cycles and Prepping
 
 General Lab Practices and Microfluidic Device Handling
 
@@ -172,7 +172,19 @@ Workflow:
 ---
 ## Day 4 ∙ Jun 26 {#day-4}
 ---
+### Coating Day 2: With Media
+
+This was the second day of the surface coating process. The protocol for today followed a sequence of one distilled water water wash, one PBS (phosphate-buffered saline) wash, one wash with experimental media, and finally the addition of complete media. The complete media is compositionally similar to the experimental media but includes additional supplements necessary for optimal cell growth and viability. 
+
+Both types of media were pre-warmed in a 37°C water bath to match physiological temperature. To prevent water contamination during incubation, the flasks were sealed using stretch-to-fit plastic film (Saran Wrap) carefully secured around the opening and along the sides of the cap to form a tight seal. 
+
+The pipetting method was consistent with the approach used on day one, ensuring minimal bubble formation and consistent fluid handling. At the conclusion of the protocol, each chamber was filled to approximately 90% capacity with complete media, avoiding overfilling that could lead to surface tension doming. 
+
+Once filled, the devices were transferred to a humidified incubator set to 37°C, where they will remain until cell seeding. After seeding, the media will need to be replenished every 3 to 5 days to compensate for evaporation and maintain a stable culture environment.
 
 ---
 ## Day 5 ∙ Jun 27 {#day-5}
 ---
+### Dissection Day
+
+Today was the day to dissect E-15 (embryonic day 15 or 15 days after fertilization) Sprague-Dawley rats. 
