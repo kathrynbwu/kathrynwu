@@ -6,7 +6,7 @@ body_class: center-text
 nav_main: true
 ---
 
-Essays, poems, reflections, and whatever else is on my mind
+Essays, poems, and whatever else is on my mind
 
 ---
 

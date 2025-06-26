@@ -151,34 +151,38 @@ body.center-text .page-content ul {
       flex-direction: row !important;
       justify-content: space-around !important;
       width: 100% !important;
-      gap: 0.5rem !important; /* smaller gap to bring links closer */
+      gap: 0.5rem !important; 
       flex-wrap: nowrap !important;
     }
   
     .site-nav a {
       flex: 1 1 auto;
       text-align: center;
-      white-space: nowrap;
-      padding: 0.5rem 1rem;
-      text-decoration: none; /* remove underline */
-      color: inherit; /* keep original color */
-    }
-  
-    .site-nav a:hover {
-      text-decoration: none; /* ensure no underline on hover */
-      color: #0d0f1c; /* optional: keep hover color */
     }
   }
+
+  .site-nav a {
+    text-decoration: none; 
+    color: #3e4261;        
+    padding: 0.5rem 1rem;
+    white-space: nowrap; 
+    transition: color 0.2s ease;
+  }
+  
+  .site-nav a:hover {
+    color: #0d0f1c;      
+    text-decoration: none;
+  }  
   
   .site-footer {
     width: 100%;
-    background-color: #fffdf5; /* match header */
+    background-color: #fffdf5;
     border-top: 1px solid #e5e5e5;
-    padding: 0.6rem 0;          /* thinner height */
+    padding: 0.6rem 0;       
     text-align: center;
     font-size: 0.85rem;
     color: #292d51;
-    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.04); /* subtle shadow like header */
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.04);
     margin-top: 4rem;
   }
   
