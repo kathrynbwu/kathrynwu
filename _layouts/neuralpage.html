@@ -25,98 +25,106 @@
 
   <div class="wrapper" style="display: flex; gap: 2rem; margin-top: 2rem;">
     <aside class="sidebar">
-      <ul>
-        {% assign pages_list = site.pages | where_exp: "item", "item.url contains '/neuralengineering/'" %}
-        {% for subpage in pages_list %}
-          <li class="sidebar-item {% if page.url == subpage.url %}active-week{% endif %}">
-            <a class="collapsible-link" href="{{ subpage.url | relative_url }}">
-                <span class="arrow">›</span> {{ subpage.title }}
-              </a>
+      <!-- ADD THIS BUTTON -->
+      <button class="sidebar-toggle" onclick="toggleSidebar()">
+        Course Navigation
+      </button>
+      
+      <!-- WRAP your existing <ul> in a div with class="sidebar-content" -->
+      <div class="sidebar-content">
+        <ul>
+          {% assign pages_list = site.pages | where_exp: "item", "item.url contains '/neuralengineering/'" %}
+          {% for subpage in pages_list %}
+            <li class="sidebar-item {% if page.url == subpage.url %}active-week{% endif %}">
+              <a class="collapsible-link" href="{{ subpage.url | relative_url }}">
+                  <span class="arrow">›</span> {{ subpage.title }}
+                </a>
 
-            {% if subpage.url contains 'week1' %}
-              <ul class="collapsible-content">
-                <li><a href="{{ subpage.url | relative_url }}#day-1">Day 1</a></li>
-                <li><a href="{{ subpage.url | relative_url }}#day-2">Day 2</a></li>
-                <li><a href="{{ subpage.url | relative_url }}#day-3">Day 3</a></li>
-                <li><a href="{{ subpage.url | relative_url }}#day-4">Day 4</a></li>
-                <li><a href="{{ subpage.url | relative_url }}#day-5">Day 5</a></li>
-              </ul>
-            {% elsif subpage.url contains 'week2' %}
-              <ul class="collapsible-content">
-                <li><a href="{{ subpage.url | relative_url }}#day-1">Day 1</a></li>
-                <li><a href="{{ subpage.url | relative_url }}#day-2">Day 2</a></li>
-                <li><a href="{{ subpage.url | relative_url }}#day-3">Day 3</a></li>
-                <li><a href="{{ subpage.url | relative_url }}#day-4">Day 4</a></li>
-                <li><a href="{{ subpage.url | relative_url }}#day-5">Day 5</a></li>
-              </ul>
-            {% elsif subpage.url contains 'week3' %}
-              <ul class="collapsible-content">
-                <li><a href="{{ subpage.url | relative_url }}#day-1">Day 1</a></li>
-                <li><a href="{{ subpage.url | relative_url }}#day-2">Day 2</a></li>
-                <li><a href="{{ subpage.url | relative_url }}#day-3">Day 3</a></li>
-                <li><a href="{{ subpage.url | relative_url }}#day-4">Day 4</a></li>
-                <li><a href="{{ subpage.url | relative_url }}#day-5">Day 5</a></li>
-              </ul>
-            {% elsif subpage.url contains 'week4' %}
-              <ul class="collapsible-content">
-                <li><a href="{{ subpage.url | relative_url }}#day-1">Day 1</a></li>
-                <li><a href="{{ subpage.url | relative_url }}#day-2">Day 2</a></li>
-                <li><a href="{{ subpage.url | relative_url }}#day-3">Day 3</a></li>
-                <li><a href="{{ subpage.url | relative_url }}#day-4">Day 4</a></li>
-                <li><a href="{{ subpage.url | relative_url }}#day-5">Day 5</a></li>
-              </ul>
-            {% elsif subpage.url contains 'week5' %}
-              <ul class="collapsible-content">
-                <li><a href="{{ subpage.url | relative_url }}#day-1">Day 1</a></li>
-                <li><a href="{{ subpage.url | relative_url }}#day-2">Day 2</a></li>
-                <li><a href="{{ subpage.url | relative_url }}#day-3">Day 3</a></li>
-                <li><a href="{{ subpage.url | relative_url }}#day-4">Day 4</a></li>
-                <li><a href="{{ subpage.url | relative_url }}#day-5">Day 5</a></li>
-              </ul>
-            {% elsif subpage.url contains 'week6' %}
-              <ul class="collapsible-content">
-                <li><a href="{{ subpage.url | relative_url }}#day-1">Day 1</a></li>
-                <li><a href="{{ subpage.url | relative_url }}#day-2">Day 2</a></li>
-                <li><a href="{{ subpage.url | relative_url }}#day-3">Day 3</a></li>
-                <li><a href="{{ subpage.url | relative_url }}#day-4">Day 4</a></li>
-                <li><a href="{{ subpage.url | relative_url }}#day-5">Day 5</a></li>
-              </ul>
-            {% elsif subpage.url contains 'week7' %}
-              <ul class="collapsible-content">
-                <li><a href="{{ subpage.url | relative_url }}#day-1">Day 1</a></li>
-                <li><a href="{{ subpage.url | relative_url }}#day-2">Day 2</a></li>
-                <li><a href="{{ subpage.url | relative_url }}#day-3">Day 3</a></li>
-                <li><a href="{{ subpage.url | relative_url }}#day-4">Day 4</a></li>
-                <li><a href="{{ subpage.url | relative_url }}#day-5">Day 5</a></li>
-              </ul>
-            {% elsif subpage.url contains 'week8' %}
-              <ul class="collapsible-content">
-                <li><a href="{{ subpage.url | relative_url }}#day-1">Day 1</a></li>
-                <li><a href="{{ subpage.url | relative_url }}#day-2">Day 2</a></li>
-                <li><a href="{{ subpage.url | relative_url }}#day-3">Day 3</a></li>
-                <li><a href="{{ subpage.url | relative_url }}#day-4">Day 4</a></li>
-                <li><a href="{{ subpage.url | relative_url }}#day-5">Day 5</a></li>
-              </ul>
-            {% elsif subpage.url contains 'week9' %}
-              <ul class="collapsible-content">
-                <li><a href="{{ subpage.url | relative_url }}#day-1">Day 1</a></li>
-                <li><a href="{{ subpage.url | relative_url }}#day-2">Day 2</a></li>
-                <li><a href="{{ subpage.url | relative_url }}#day-3">Day 3</a></li>
-                <li><a href="{{ subpage.url | relative_url }}#day-4">Day 4</a></li>
-                <li><a href="{{ subpage.url | relative_url }}#day-5">Day 5</a></li>
-              </ul>
-            {% elsif subpage.url contains 'week10' %}
-              <ul class="collapsible-content">
-                <li><a href="{{ subpage.url | relative_url }}#day-1">Day 1</a></li>
-                <li><a href="{{ subpage.url | relative_url }}#day-2">Day 2</a></li>
-                <li><a href="{{ subpage.url | relative_url }}#day-3">Day 3</a></li>
-                <li><a href="{{ subpage.url | relative_url }}#day-4">Day 4</a></li>
-                <li><a href="{{ subpage.url | relative_url }}#day-5">Day 5</a></li>
-              </ul>
-            {% endif %}
-          </li>
-        {% endfor %}
-      </ul>
+              {% if subpage.url contains 'week1' %}
+                <ul class="collapsible-content">
+                  <li><a href="{{ subpage.url | relative_url }}#day-1">Day 1</a></li>
+                  <li><a href="{{ subpage.url | relative_url }}#day-2">Day 2</a></li>
+                  <li><a href="{{ subpage.url | relative_url }}#day-3">Day 3</a></li>
+                  <li><a href="{{ subpage.url | relative_url }}#day-4">Day 4</a></li>
+                  <li><a href="{{ subpage.url | relative_url }}#day-5">Day 5</a></li>
+                </ul>
+              {% elsif subpage.url contains 'week2' %}
+                <ul class="collapsible-content">
+                  <li><a href="{{ subpage.url | relative_url }}#day-1">Day 1</a></li>
+                  <li><a href="{{ subpage.url | relative_url }}#day-2">Day 2</a></li>
+                  <li><a href="{{ subpage.url | relative_url }}#day-3">Day 3</a></li>
+                  <li><a href="{{ subpage.url | relative_url }}#day-4">Day 4</a></li>
+                  <li><a href="{{ subpage.url | relative_url }}#day-5">Day 5</a></li>
+                </ul>
+              {% elsif subpage.url contains 'week3' %}
+                <ul class="collapsible-content">
+                  <li><a href="{{ subpage.url | relative_url }}#day-1">Day 1</a></li>
+                  <li><a href="{{ subpage.url | relative_url }}#day-2">Day 2</a></li>
+                  <li><a href="{{ subpage.url | relative_url }}#day-3">Day 3</a></li>
+                  <li><a href="{{ subpage.url | relative_url }}#day-4">Day 4</a></li>
+                  <li><a href="{{ subpage.url | relative_url }}#day-5">Day 5</a></li>
+                </ul>
+              {% elsif subpage.url contains 'week4' %}
+                <ul class="collapsible-content">
+                  <li><a href="{{ subpage.url | relative_url }}#day-1">Day 1</a></li>
+                  <li><a href="{{ subpage.url | relative_url }}#day-2">Day 2</a></li>
+                  <li><a href="{{ subpage.url | relative_url }}#day-3">Day 3</a></li>
+                  <li><a href="{{ subpage.url | relative_url }}#day-4">Day 4</a></li>
+                  <li><a href="{{ subpage.url | relative_url }}#day-5">Day 5</a></li>
+                </ul>
+              {% elsif subpage.url contains 'week5' %}
+                <ul class="collapsible-content">
+                  <li><a href="{{ subpage.url | relative_url }}#day-1">Day 1</a></li>
+                  <li><a href="{{ subpage.url | relative_url }}#day-2">Day 2</a></li>
+                  <li><a href="{{ subpage.url | relative_url }}#day-3">Day 3</a></li>
+                  <li><a href="{{ subpage.url | relative_url }}#day-4">Day 4</a></li>
+                  <li><a href="{{ subpage.url | relative_url }}#day-5">Day 5</a></li>
+                </ul>
+              {% elsif subpage.url contains 'week6' %}
+                <ul class="collapsible-content">
+                  <li><a href="{{ subpage.url | relative_url }}#day-1">Day 1</a></li>
+                  <li><a href="{{ subpage.url | relative_url }}#day-2">Day 2</a></li>
+                  <li><a href="{{ subpage.url | relative_url }}#day-3">Day 3</a></li>
+                  <li><a href="{{ subpage.url | relative_url }}#day-4">Day 4</a></li>
+                  <li><a href="{{ subpage.url | relative_url }}#day-5">Day 5</a></li>
+                </ul>
+              {% elsif subpage.url contains 'week7' %}
+                <ul class="collapsible-content">
+                  <li><a href="{{ subpage.url | relative_url }}#day-1">Day 1</a></li>
+                  <li><a href="{{ subpage.url | relative_url }}#day-2">Day 2</a></li>
+                  <li><a href="{{ subpage.url | relative_url }}#day-3">Day 3</a></li>
+                  <li><a href="{{ subpage.url | relative_url }}#day-4">Day 4</a></li>
+                  <li><a href="{{ subpage.url | relative_url }}#day-5">Day 5</a></li>
+                </ul>
+              {% elsif subpage.url contains 'week8' %}
+                <ul class="collapsible-content">
+                  <li><a href="{{ subpage.url | relative_url }}#day-1">Day 1</a></li>
+                  <li><a href="{{ subpage.url | relative_url }}#day-2">Day 2</a></li>
+                  <li><a href="{{ subpage.url | relative_url }}#day-3">Day 3</a></li>
+                  <li><a href="{{ subpage.url | relative_url }}#day-4">Day 4</a></li>
+                  <li><a href="{{ subpage.url | relative_url }}#day-5">Day 5</a></li>
+                </ul>
+              {% elsif subpage.url contains 'week9' %}
+                <ul class="collapsible-content">
+                  <li><a href="{{ subpage.url | relative_url }}#day-1">Day 1</a></li>
+                  <li><a href="{{ subpage.url | relative_url }}#day-2">Day 2</a></li>
+                  <li><a href="{{ subpage.url | relative_url }}#day-3">Day 3</a></li>
+                  <li><a href="{{ subpage.url | relative_url }}#day-4">Day 4</a></li>
+                  <li><a href="{{ subpage.url | relative_url }}#day-5">Day 5</a></li>
+                </ul>
+              {% elsif subpage.url contains 'week10' %}
+                <ul class="collapsible-content">
+                  <li><a href="{{ subpage.url | relative_url }}#day-1">Day 1</a></li>
+                  <li><a href="{{ subpage.url | relative_url }}#day-2">Day 2</a></li>
+                  <li><a href="{{ subpage.url | relative_url }}#day-3">Day 3</a></li>
+                  <li><a href="{{ subpage.url | relative_url }}#day-4">Day 4</a></li>
+                  <li><a href="{{ subpage.url | relative_url }}#day-5">Day 5</a></li>
+                </ul>
+              {% endif %}
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
     </aside>
 
     <main class="page-content">
@@ -127,6 +135,16 @@
 
   {% include footer.html %}
   <script>
+    // ADD this function to your existing script section
+    function toggleSidebar() {
+      const sidebarContent = document.querySelector('.sidebar-content');
+      const toggleButton = document.querySelector('.sidebar-toggle');
+      
+      sidebarContent.classList.toggle('active');
+      toggleButton.classList.toggle('active');
+    }
+    
+    // Your existing JavaScript stays exactly the same below this
     function toggleCollapse(button) {
       const parentItem = button.closest('.sidebar-item');
       const arrow = button.querySelector('.arrow');
@@ -139,22 +157,23 @@
         arrow.style.transform = "rotate(0deg)";
       }
     }
+    
     document.querySelectorAll('.collapsible-link').forEach(link => {
-  link.addEventListener('click', function(e) {
-    const parentItem = link.closest('.sidebar-item');
-    const alreadyExpanded = parentItem.classList.contains('expanded');
+      link.addEventListener('click', function(e) {
+        const parentItem = link.closest('.sidebar-item');
+        const alreadyExpanded = parentItem.classList.contains('expanded');
 
-    // If already expanded, just navigate.
-    if (alreadyExpanded) return;
+        // If already expanded, just navigate.
+        if (alreadyExpanded) return;
 
-    // Otherwise toggle the expansion
-    e.preventDefault(); // prevent nav
-    parentItem.classList.toggle('expanded');
+        // Otherwise toggle the expansion
+        e.preventDefault(); // prevent nav
+        parentItem.classList.toggle('expanded');
 
-    const arrow = link.querySelector('.arrow');
-    arrow.style.transform = parentItem.classList.contains('expanded') ? "rotate(90deg)" : "rotate(0deg)";
-  });
-});
+        const arrow = link.querySelector('.arrow');
+        arrow.style.transform = parentItem.classList.contains('expanded') ? "rotate(90deg)" : "rotate(0deg)";
+      });
+    });
   </script>  
 </body>
 </html>

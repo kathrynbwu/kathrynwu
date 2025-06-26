@@ -404,3 +404,154 @@ body.center-text .page-content ul {
   font-size: 1.4rem;
   text-align: center;
 }
+
+/* edits for mobile */
+/* ========================================
+   MOBILE RESPONSIVE ADDITIONS
+   Add this to the END of your existing main.css
+   ======================================== */
+
+/* Mobile sidebar toggle button - hidden by default */
+.sidebar-toggle {
+  display: none;
+}
+
+/* Mobile styles - only apply on screens smaller than 768px */
+@media screen and (max-width: 767px) {
+  
+  /* Prevent horizontal scrolling */
+  body {
+    overflow-x: hidden;
+  }
+  
+  /* Header adjustments for mobile */
+  .site-header .wrapper {
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1rem;
+  }
+  
+  .site-title {
+    font-size: 1.3rem;
+    text-align: center;
+    white-space: normal;
+  }
+  
+  /* Hide the tagline on mobile to save space */
+  .site-title::after {
+    display: none;
+  }
+  
+  .site-nav {
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+  }
+  
+  .site-nav a {
+    font-size: 1rem;
+  }
+  
+  /* Main layout changes for mobile */
+  .wrapper[style*="display: flex"] {
+    display: block !important;
+    gap: 0 !important;
+  }
+  
+  /* Sidebar mobile adjustments */
+  .sidebar {
+    width: 100% !important;
+    min-width: unset !important;
+    max-height: none !important;
+    border-right: none !important;
+    border-bottom: 1px solid #e0e0e0;
+    margin-bottom: 1rem;
+    padding: 1rem;
+  }
+  
+  /* Show mobile toggle button */
+  .sidebar-toggle {
+    display: block;
+    width: 100%;
+    background-color: #3e4261;
+    color: white;
+    border: none;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    text-align: left;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    font-family: serif;
+  }
+  
+  .sidebar-toggle:hover {
+    background-color: #2a2f47;
+  }
+  
+  .sidebar-toggle::before {
+    content: "☰ ";
+    margin-right: 0.5rem;
+  }
+  
+  .sidebar-toggle.active::before {
+    content: "✕ ";
+  }
+  
+  /* Hide sidebar content by default on mobile */
+  .sidebar ul {
+    display: none;
+  }
+  
+  /* Show sidebar content when toggle is active */
+  .sidebar-content.active ul {
+    display: block;
+  }
+  
+  /* Main content adjustments */
+  .page-content {
+    max-width: 100% !important;
+    margin-bottom: 1rem;
+  }
+  
+  .page-content h1 {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Improve readability */
+  .page-content p {
+    line-height: 1.6;
+    margin-bottom: 1rem;
+  }
+  
+  /* Reduce wrapper padding on mobile */
+  .wrapper {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+/* Tablet adjustments (768px to 1023px) */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  
+  /* Slightly smaller sidebar for tablets */
+  .sidebar {
+    min-width: 220px !important;
+  }
+  
+  /* Adjust font sizes for tablets */
+  .site-title {
+    font-size: 1.5rem;
+  }
+  
+  .site-nav a {
+    font-size: 1.1rem;
+  }
+  
+  .page-content h1 {
+    font-size: 1.7rem;
+  }
+}
