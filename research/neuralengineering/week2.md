@@ -185,7 +185,7 @@ Once filled, the devices were transferred to a humidified incubator set to 37°C
 ---
 ## Day 5 ∙ Jun 27 {#day-5}
 ---
-### Dissection Day!
+### Dissection Day
 
 Today was the day to dissect E-15 (embryonic day 15 or 15 days after fertilization) Sprague-Dawley rats.
 
@@ -197,7 +197,7 @@ This led to a brief, tangential discussion on how other tissues, like bone, are 
 
 Dissection Workflow:
 
-(see reference video: [Dissection of DRG from an E15 rat embryo](https://www.youtube.com/watch?v=nIAyczCZBYc&ab_channel=SimonMoore)
+(see reference video: [Dissection of DRG from an E15 rat embryo](https://www.youtube.com/watch?v=nIAyczCZBYc&ab_channel=SimonMoore))
 
 1. Begin by making an abdominal incision in the pregnant rat to access the uterine horns. Carefully extract the embryonic sacs (a pregnant rat of this type is valued at approximately $250)
 
@@ -230,8 +230,102 @@ Dissection Workflow:
 
 8. Rats have approximately 30–32 pairs of DRGs. We aim to isolate at least 20–25 pairs per dissection
 
-9. Each extracted DRG is placed into L15-P15 solution. L15 serves as a nutrient-rich medium for short-term storage, while P15 (containing penicillin) prevents microbial contamination
+9. Each extracted DRG is placed into L-15 + P/S solution. L15 serves as a nutrient-rich medium for short-term storage, while P15 (containing penicillin) prevents microbial contamination
 
 Purchasing pre-isolated DRGs can cost thousands of dollars, which just emphasized how doing ours in lab was much more cost effective. Ultimately, though, it all depends on funding.
 
 Yesterday, we filled the wells with complete culture media. What it actually contains that the experimental media did not is quite critical: several additives including glucose, additional nutrients, and FUDR (fluorodeoxyuridine). FUDR is critical for inhibiting the proliferation of glial cells. While it does not kill glial cells, it stunts their proliferation, which is particularly beneficial for right now as we are working with more muscular embryos. This inhibition reduces background glial density during imaging and allows for clearer visualization of the neurons of interest.
+
+---
+
+In the afternoon, we started working on culturing neurons. Khayzaran gave a general gist of the process of culturing neurons. We are processing the cells using enzymes to break down the cellular matrix to get to the neuron. Right now, it is just a bundle of stuff that we need to clarify. Later on, Prashant told us about each of the three chemicals: DNase breaks down DNA, Collagenase breaks down collagen, and trypsin breaks down peptide bonds in proteins. 
+
+- DNase (Deoxyribonuclease): Degrades DNA released from lysed cells, reducing viscosity - and preventing clumping during dissociation.
+
+- Collagenase: Specifically breaks down collagen, a major structural protein in connective tissue, helping to loosen up the matrix.
+
+- Trypsin: A serine protease that cleaves proteins at the carboxyl side of lysine and arginine residues. In cell culture, it’s used to digest proteins in the extracellular matrix and detach cells by breaking down adhesion proteins.
+
+When we went to the centrifuge, he asked me to find out the difference between RPM and RCF.
+
+Collect Items:
+- Collagenase (10 mg/mL)
+- Trypsin (0.25)
+- L-15 + P/S Media
+- L-15 + P/S + FBS Media (used to stop reaction)
+- Stock DNase solution in PBS (25 mg/mL); 0.5 mg/mL working solution
+- DRG explants
+
+Instructions:
+- Create a diluted DNase Solution called the Separator
+    - Add 200 µL of the 25 mg/mL DNase into a 15 mL conical tube
+    - Add 10 mL of L-15 + P/S Media to the DNase-containing conical tube
+    - This yields a solution of 0.5 mg/mL DNase (Separator)
+
+- DRG preparation
+    - Place DRG-containing solution from dissection into a separate 15 mL tube
+    - Add 1 mL of Collagenase for every 2 mL of DRG-containing solution you observe
+    - Cover the cell-containing tube with parafilm and place into the 37-degree water bath for 30 minutes to incubate cells, stir every 10 minutes
+
+- Separation of DRG cells
+    - After incubation, place the sample into the centrifuge and spin down at 1000 RPM for 2 mins
+    - Remove supernatant by slowly extracting the media from the cell-containing tube until there is 1 mL remaining in the tube
+    - Add 3 mL of trypsin to the cell-containing tube
+    - Add 1 mL of Separator to the cell-containing tube
+    - Cover with parafilm and place into the water bath again for 2–3 minutes (DO NOT OVERINCUBATE)
+
+- Dissociation of DRGs
+    - Add 5 mL of L-15 + P/S + FBS Media to stop the reaction
+    - Place sample into the centrifuge and spin down at 1000 RPM for 2 minutes
+    - Remove supernatant again, making sure to leave approx. 1 mL of cell-containing solution to not accidentally suck up cells
+    - Add 10 mL of ice-cold L-15 + P/S Media and place into the centrifuge. Spin down at 1000 RPM for 2 min and remove supernatant
+    - Repeat steps 4c–d (make sure to remove supernatant at the end)
+
+- Final steps
+    - Add 1 mL of Separator solution to the cell-containing tube
+    - You should have approx. 2 mL in this tube
+    - Titrate gently using a 200 microliter yellow tip 10–12 times (you do this by aspirating and dispensing repeatedly)
+    - Add the rest of the DNase solution to the conical tube
+    - Add L-15 + P/S Media to make the solution 10 mL total
+    - Place into centrifuge tube and spin down at 1000 RPM for 10 min
+    - Remove supernatant
+    - Add 1 mL of complete DRG media and titrate again using a 200 microliter yellow tip 10–12 times or until the solution looks homogeneous
+    - Count cells using a hemocytometer
+
+Dilute solution to place approx. 5000 cells into each chamber
+
+When we got to the centrifuge work, prashant tasked me with figuring out the difference between RPM and RCF. In centrifugation,
+
+> RPM (Revolutions Per Minute) is unit of rotational speed, or how many times the centrifuge spins in one minute. It does not account for the size (radius) of the centrifuge rotor. RPM alone is not enough to compare force across different centrifuges. 
+ 
+> RCF (Relative Centrifugal Force aka g-force) is measured in '× g' (multiples of Earth's gravity). This tells you the actual force being applied to the samples and depends on both RPM and the rotor radius. It is universally comparable between machines.
+
+To convert RPM → RCF, use:
+
+> RCF = 1.118 × 10⁻⁵ × R × (RPM)²
+
+> Where R is the radius in centimeters (from the center of the rotor to the sample) and RCF is in '× g'
+
+Prashant also had us watch a [YouTube video](https://www.youtube.com/watch?v=ZukmrTVKCOk&ab_channel=BiologyLectures) on counting cells using a hemocytometer:
+
+1. Centrifuge the cell suspension and discard supernatant
+2. Resuspend cell pellet in PBS and add Trypan Blue (100 microliters) to the mix
+3. Add sample to hemocytometer and analyze cell viability under a microscope
+4. Viable cell is unstained; apoptotic cell is stained
+5. You will see a kind of grid where there are squares in the corner. Count all the live cells only in those four corner squares. Then count dead cells
+
+According to the video, the formula goes:
+> Number of viable cells/mL = (number of cells counted × 10,000 × dilution factor) / number of large corner squares counted
+
+After 10 minutes of centrifuging, we were called back in. Prashant asked if we learned how the hemocytometer works. I thought he was asking for the concentration formula, so I started to read my notes on it out. After he clarified, I admitted that I did not know. He asked us if we were familiar with capillary action and, thank you 8th grade science, I was.
+
+Capillary action is the movement of a liquid through a narrow space against gravity due to cohesion and adhesion. The same applies for the hemocytometer. When you load a sample onto the hemocytometer, you typically place a small drop of the cell suspension at the edge of the cover slip that has been placed over the counting chamber. Capillary action then draws the liquid evenly into the narrow gap between the cover slip and the chamber surface, filling the space without air bubbles or overflow.
+
+This happens also because of adhesion (causes the liquid to cling to the glass surfaces of the slide and cover slip) and cohesion (helps pull the rest of the liquid along with it, forming a smooth, uniform layer across the grid).
+
+This thin, consistent layer helps with accurate cell counting, because it ensures the volume over each square is known and reproducible (typically 0.1 mm³ per square), which is important for calculating cell concentration.
+
+The way Prashant calculated was mostly in his head though, and I’m still not fully sure about the formula. He said something about averaging. Our hemocytometer was a 4 by 4 grid with 4 cells within each cell of the grid. He approximated that we had around 1 million cells total, which is 500 per microliter. He diluted the cells, then rotated for uniform distribution. 
+
+Then, he seeded them in a 96-well tray, shaking the tube every so often to make sure they were still homogeneous. When we got to the PDMS chambers for seeding, he placed the dish at a tilt so that gravity would allow the axons to be oriented towards the microchannels. He said he tried to seed them as close to the channel as possible and that it’s important to be careful not to overstress the cells.
+

@@ -484,6 +484,10 @@ body.center-text .page-content ul {
     gap: 0 !important;
   }
 
+  .wrapper {
+    padding-top: 0rem; /* or margin-top: 2rem; */
+  }
+
   /* Sidebar mobile adjustments - flush with screen edges */
   .sidebar {
     width: 100% !important;

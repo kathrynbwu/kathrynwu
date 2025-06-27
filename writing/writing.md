@@ -81,14 +81,15 @@ nav_main: true
 
 /* Mobile responsive styles for writing page */
 @media screen and (max-width: 767px) {
-  
-  /* Make collapsible headers more mobile-friendly */
+
+/* Make collapsible headers more mobile-friendly */
   
 .collapsible-block {
   margin-top: 0.5rem !important;
   margin-bottom: 1rem !important;
   text-align: center;
 }
+
 .collapsible-header {
     font-size: 1rem;
     padding: 0.75rem 0.5rem; /* Add touch-friendly padding */
