@@ -187,4 +187,51 @@ Once filled, the devices were transferred to a humidified incubator set to 37°C
 ---
 ### Dissection Day!
 
-Today was the day to dissect E-15 (embryonic day 15 or 15 days after fertilization) Sprague-Dawley rats. 
+Today was the day to dissect E-15 (embryonic day 15 or 15 days after fertilization) Sprague-Dawley rats.
+
+Sprague-Dawley rats have a gestation period of approximately 21–23 days and typically carry up to 12 embryos per pregnancy. In our case, the rat was 14 days pregnant and carried 10 embryos. At this stage, organogenesis is just beginning. By embryonic day 16 (E16), organ development becomes much more advanced, making E14.5-E15 an ideal window for isolating developing neural structures before they become too muscular or structurally complex.
+
+Ours ended up a little muscular, which poses challenges during dissection, as excessive musculature increases the presence of surrounding glial cells during extraction. Granted, it provides a more human-like environment that can be advantageous for cell growth, it also introduces complications. During our discussion, Prashant asked us to consider a defining feature of neurons; specifically, what they don’t do that other cells typically do. I initially guessed it might relate to regeneration, and after further prompting, clarified that perhaps neurons do not regenerate in the same way as many other cell types. This was avtually correct, but the more precise term is proliferation. Unlike most somatic cells, neurons do not undergo mitotic division once differentiated.
+
+This led to a brief, tangential discussion on how other tissues, like bone, are capable of regeneration. Fractures can heal because bone cells proliferate. In contrast, neurons require continuous stimulation (exercise, playing an instrument, reading) to maintain their function and viability. We are born with approximately 3 billion neurons, which later integrate and form complex networks. Since then, it's a race to retain as many of them as we can. 
+
+Dissection Workflow:
+
+(see reference video: [Dissection of DRG from an E15 rat embryo](https://www.youtube.com/watch?v=nIAyczCZBYc&ab_channel=SimonMoore)
+
+1. Begin by making an abdominal incision in the pregnant rat to access the uterine horns. Carefully extract the embryonic sacs (a pregnant rat of this type is valued at approximately $250)
+
+2. Puncture the amniotic sac and remove the embryo. Internal structures may appear reddish and organ-like
+
+3. Behead the embryo to allow for easier access to the spinal column
+
+4. Perform a longitudinal cut to "butterfly" the embryo and expose the spinal cord
+
+5. Dissect around the tissue to remove the spinal cord in a single, continuous segment
+
+6. Carefully remove excess adipose tissue surrounding the spinal cord
+
+7. Dorsal root ganglia (DRGs) are small clusters of sensory neurons located bilaterally along the spinal cord. Khayzaran described them as leaf-like in appearance; to me, they resembled tiny fruits
+
+<div style="flex-shrink: 0;">
+  <img 
+    src="{{ '/assets/images/neuroengineering/week2/1.png' | relative_url }}" 
+    alt="test sketch" 
+    width="590" 
+    style="border: 1px solid #292d51; object-fit: cover;" 
+  />
+</div>
+
+<div style="text-align: center;">
+  <a href="https://www.researchgate.net/figure/Representative-images-of-the-dorsal-rot-ganglia-DRG-neurons-dissection-steps-a-E15_fig1_326595614">
+    <em>Dorsal root ganglion (DRG) under microscope; arrows highlight features of interest</em>
+  </a>
+</div>
+
+8. Rats have approximately 30–32 pairs of DRGs. We aim to isolate at least 20–25 pairs per dissection
+
+9. Each extracted DRG is placed into L15-P15 solution. L15 serves as a nutrient-rich medium for short-term storage, while P15 (containing penicillin) prevents microbial contamination
+
+Purchasing pre-isolated DRGs can cost thousands of dollars, which just emphasized how doing ours in lab was much more cost effective. Ultimately, though, it all depends on funding.
+
+Yesterday, we filled the wells with complete culture media. What it actually contains that the experimental media did not is quite critical: several additives including glucose, additional nutrients, and FUDR (fluorodeoxyuridine). FUDR is critical for inhibiting the proliferation of glial cells. While it does not kill glial cells, it stunts their proliferation, which is particularly beneficial for right now as we are working with more muscular embryos. This inhibition reduces background glial density during imaging and allows for clearer visualization of the neurons of interest.
