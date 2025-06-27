@@ -7,6 +7,13 @@ nav_main: true
 ---
 
 <style>
+
+.section-divider {
+  border: none;
+  border-top: 1.2px solid #ccc; /* adjust thickness and color */
+  margin: 1rem auto;
+  width: 100%; /* or 100% if preferred */
+}
 .collapsible-block {
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -76,8 +83,14 @@ nav_main: true
 @media screen and (max-width: 767px) {
   
   /* Make collapsible headers more mobile-friendly */
-  .collapsible-header {
-    font-size: 0.9rem;
+  
+.collapsible-block {
+  margin-top: 0.5rem !important;
+  margin-bottom: 1rem !important;
+  text-align: center;
+}
+.collapsible-header {
+    font-size: 1rem;
     padding: 0.75rem 0.5rem; /* Add touch-friendly padding */
     line-height: 1.3;
     text-align: center;
@@ -91,11 +104,12 @@ nav_main: true
     hyphens: auto;
     max-width: 100%;
     line-height: 1.4;
+    margin-top: 0rem;
   }
 
   /* Make subtitles more readable on mobile */
   .collapsible-subtitle {
-    font-size: 0.85rem;
+    font-size: 0.9rem;
     margin-left: 0;
     margin-top: 0.25rem;
     display: block; /* Put subtitle on new line */
@@ -109,7 +123,7 @@ nav_main: true
     font-size: 0.9rem;
     line-height: 1.5;
     text-align: center; /* Left-align content for better readability */
-    margin-top: 0.5rem;
+    margin-top: -0.75rem;
   }
 
   /* Make links more touch-friendly */
@@ -138,7 +152,7 @@ nav_main: true
     font-size: 1rem;
     line-height: 1.5;
     margin-bottom: 1.25rem;
-    padding: 0 0.5rem;
+    padding: 0 0rem;
   }
 
   /* Handle the horizontal rule better on mobile */
@@ -153,7 +167,7 @@ nav_main: true
 
 <p>Essays, poems, and whatever else is on my mind</p>
 
----
+<hr class="section-divider" />
 
 <div class="collapsible-block">
   <div class="collapsible-header" onclick="toggleContent(this)">

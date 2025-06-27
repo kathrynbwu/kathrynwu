@@ -452,6 +452,11 @@ body.center-text .page-content ul {
     gap: 1rem;
   }
 
+    /* Increase space below the header */
+    header, .page-header {
+      margin-bottom: .8rem!important; /* Increase this value as needed */
+    }
+
   .site-title {
     font-size: 1.3rem;
     text-align: center;
