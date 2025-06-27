@@ -197,26 +197,14 @@ This led to a brief, tangential discussion on how other tissues, like bone, are 
 
 Dissection Workflow:
 
-(see reference video: [Dissection of DRG from an E15 rat embryo](https://www.youtube.com/watch?v=nIAyczCZBYc&ab_channel=SimonMoore))
+(reference video: [DRG Dissection from an E15 rat embryo](https://www.youtube.com/watch?v=nIAyczCZBYc&ab_channel=SimonMoore))
 
 1. Begin by making an abdominal incision in the pregnant rat to access the uterine horns. Carefully extract the embryonic sacs (a pregnant rat of this type is valued at approximately $250)
-
 2. Puncture the amniotic sac and remove the embryo. Internal structures may appear reddish and organ-like
-
-3. Behead the embryo to allow for easier access to the spinal column
-
-4. Perform a longitudinal cut to "butterfly" the embryo and expose the spinal cord
-
-5. Dissect around the tissue to remove the spinal cord in a single, continuous segment
-
-6. Carefully remove excess adipose tissue surrounding the spinal cord
-
-7. Dorsal root ganglia (DRGs) are small clusters of sensory neurons located bilaterally along the spinal cord. Khayzaran described them as leaf-like in appearance; to me, they resembled tiny fruits
-
 <div style="flex-shrink: 0;">
   <img 
-    src="{{ '/assets/images/neuroengineering/week2/1.png' | relative_url }}" 
-    alt="test sketch" 
+    src="{{ '/assets/images/neuroengineering/week2/2.png' | relative_url }}" 
+    alt="image" 
     width="590" 
     style="border: 1px solid #292d51; object-fit: cover;" 
   />
@@ -224,12 +212,45 @@ Dissection Workflow:
 
 <div style="text-align: center;">
   <a href="https://www.researchgate.net/figure/Representative-images-of-the-dorsal-rot-ganglia-DRG-neurons-dissection-steps-a-E15_fig1_326595614">
-    <em>Dorsal root ganglion (DRG) under microscope; arrows highlight features of interest</em>
+    <em>a. E15 rat embryo after extraction from amneotic sac and before dissection</em>
+  </a>
+</div>
+3. Behead the embryo to allow for easier access to the spinal column
+4. Perform a longitudinal cut to "butterfly" the embryo and expose the spinal cord
+<div style="flex-shrink: 0;">
+  <img 
+    src="{{ '/assets/images/neuroengineering/week2/3.png' | relative_url }}" 
+    alt="image" 
+    width="590" 
+    style="border: 1px solid #292d51; object-fit: cover;" 
+  />
+</div>
+
+<div style="text-align: center;">
+  <a href="https://www.researchgate.net/figure/Representative-images-of-the-dorsal-rot-ganglia-DRG-neurons-dissection-steps-a-E15_fig1_326595614">
+    <em>b. E15 rat embryo butterflied and prepared for spinal cord dissection</em>
+  </a>
+</div>
+5. Dissect around the tissue to remove the spinal cord in a single, continuous segment
+6. Carefully remove excess adipose tissue surrounding the spinal cord
+7. Dorsal root ganglia (DRGs) are small clusters of sensory neurons located bilaterally along the spinal cord. Khayzaran described them as leaf-like in appearance; to me, they resembled tiny fruits
+
+<div style="flex-shrink: 0;">
+  <img 
+    src="{{ '/assets/images/neuroengineering/week2/1.png' | relative_url }}" 
+    alt="image" 
+    width="590" 
+    style="border: 1px solid #292d51; object-fit: cover;" 
+  />
+</div>
+
+<div style="text-align: center;">
+  <a href="https://www.researchgate.net/figure/Representative-images-of-the-dorsal-rot-ganglia-DRG-neurons-dissection-steps-a-E15_fig1_326595614"> 
+    <em>c. DRG attached to the spinal cord; d. arrows highlight isolated DRG</em>
   </a>
 </div>
 
 8. Rats have approximately 30–32 pairs of DRGs. We aim to isolate at least 20–25 pairs per dissection
-
 9. Each extracted DRG is placed into L-15 + P/S solution. L15 serves as a nutrient-rich medium for short-term storage, while P15 (containing penicillin) prevents microbial contamination
 
 Purchasing pre-isolated DRGs can cost thousands of dollars, which just emphasized how doing ours in lab was much more cost effective. Ultimately, though, it all depends on funding.
@@ -238,7 +259,7 @@ Yesterday, we filled the wells with complete culture media. What it actually con
 
 ---
 
-In the afternoon, we started working on culturing neurons. Khayzaran gave a general gist of the process of culturing neurons. We are processing the cells using enzymes to break down the cellular matrix to get to the neuron. Right now, it is just a bundle of stuff that we need to clarify. Later on, Prashant told us about each of the three chemicals: DNase breaks down DNA, Collagenase breaks down collagen, and trypsin breaks down peptide bonds in proteins. 
+In the afternoon, we started working on culturing neurons. Khayzaran gave a general gist   of the process of culturing neurons. We are processing the cells using enzymes to break down the cellular matrix to get to the neuron. Right now, it is just a bundle of stuff that we need to clarify. Later on, Prashant told us about each of the three chemicals: DNase breaks down DNA, Collagenase breaks down collagen, and trypsin breaks down peptide bonds in proteins. 
 
 - DNase (Deoxyribonuclease): Degrades DNA released from lysed cells, reducing viscosity - and preventing clumping during dissociation.
 
@@ -258,16 +279,19 @@ Collect Items:
 
 Instructions:
 - Create a diluted DNase Solution called the Separator
+
     - Add 200 µL of the 25 mg/mL DNase into a 15 mL conical tube
     - Add 10 mL of L-15 + P/S Media to the DNase-containing conical tube
     - This yields a solution of 0.5 mg/mL DNase (Separator)
 
 - DRG preparation
+
     - Place DRG-containing solution from dissection into a separate 15 mL tube
     - Add 1 mL of Collagenase for every 2 mL of DRG-containing solution you observe
     - Cover the cell-containing tube with parafilm and place into the 37-degree water bath for 30 minutes to incubate cells, stir every 10 minutes
 
 - Separation of DRG cells
+
     - After incubation, place the sample into the centrifuge and spin down at 1000 RPM for 2 mins
     - Remove supernatant by slowly extracting the media from the cell-containing tube until there is 1 mL remaining in the tube
     - Add 3 mL of trypsin to the cell-containing tube
@@ -275,6 +299,7 @@ Instructions:
     - Cover with parafilm and place into the water bath again for 2–3 minutes (DO NOT OVERINCUBATE)
 
 - Dissociation of DRGs
+
     - Add 5 mL of L-15 + P/S + FBS Media to stop the reaction
     - Place sample into the centrifuge and spin down at 1000 RPM for 2 minutes
     - Remove supernatant again, making sure to leave approx. 1 mL of cell-containing solution to not accidentally suck up cells
@@ -282,6 +307,7 @@ Instructions:
     - Repeat steps 4c–d (make sure to remove supernatant at the end)
 
 - Final steps
+
     - Add 1 mL of Separator solution to the cell-containing tube
     - You should have approx. 2 mL in this tube
     - Titrate gently using a 200 microliter yellow tip 10–12 times (you do this by aspirating and dispensing repeatedly)
@@ -302,9 +328,9 @@ When we got to the centrifuge work, prashant tasked me with figuring out the dif
 
 To convert RPM → RCF, use:
 
-> RCF = 1.118 × 10⁻⁵ × R × (RPM)²
+> RCF (x) = 1.118 × 10⁻⁵ × R × (RPM)²
 
-> Where R is the radius in centimeters (from the center of the rotor to the sample) and RCF is in '× g'
+> Where R is the radius in centimeters (from the center of the rotor to the sample)
 
 Prashant also had us watch a [YouTube video](https://www.youtube.com/watch?v=ZukmrTVKCOk&ab_channel=BiologyLectures) on counting cells using a hemocytometer:
 
