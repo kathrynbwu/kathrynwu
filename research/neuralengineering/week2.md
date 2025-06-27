@@ -185,6 +185,6 @@ Once filled, the devices were transferred to a humidified incubator set to 37°C
 ---
 ## Day 5 ∙ Jun 27 {#day-5}
 ---
-### Dissection Day
+### Dissection Day!
 
 Today was the day to dissect E-15 (embryonic day 15 or 15 days after fertilization) Sprague-Dawley rats. 
