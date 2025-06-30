@@ -5,7 +5,7 @@ week_order: 1
 permalink: /research/neuralengineering/week1/
 nav_exclude: true
 ---
-
+### Microfluidic Compartmentalized Culture Device Fabrication
 ---
 ## Day 1 ∙ Jun 16 {#day-1}
 ---

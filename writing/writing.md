@@ -176,7 +176,8 @@ nav_main: true
     <span class="collapsible-title">A Little Saltwater Disquiet •<span class="collapsible-subtitle">a collection of poems on saltwater forms, childhood musings, and filial disquiet</span></span>
   </div>
   <div class="collapsible-content">
-    <a href="https://sites.google.com/charlottelatin.org/kathrynwufinalportfolio/greatest-hits/greatest-hits-poetry?authuser=0" target="_blank">View collection</a>
+    <a href="https://sites.google.com/charlottelatin.org/kathrynwufinalportfolio/greatest-hits/greatest-hits-poetry?authuser=0" target="_blank">|| View collection ||
+</a>
   </div>
 </div>
 
@@ -189,7 +190,7 @@ nav_main: true
     essay • <a href="https://sites.google.com/charlottelatin.org/kathrynwufinalportfolio/2025-works/much-ado-about-nothing" target="_blank">Draped in Desire: Branagh's Visual Battle of the Sexes in <em>Much Ado About Nothing</em></a><br />
     essay • <a href="https://sites.google.com/charlottelatin.org/kathrynwufinalportfolio/2025-works/fahrenheit-451-essay" target="_blank">Duality, Reality, Morality: The Use of Dual Natures to Provide Meaning</a><br />
     essay • <a href="https://sites.google.com/charlottelatin.org/kathrynwufinalportfolio/2025-works/argumentative-research-essay" target="_blank">The Futility of Hedonism: Two Thousand Years of Pleasure Seeking</a><br />
-    <a href="https://sites.google.com/charlottelatin.org/kathrynwufinalportfolio/home" target="_blank">View full collection</a>
+    <a href="https://sites.google.com/charlottelatin.org/kathrynwufinalportfolio/home" target="_blank">|| View full collection ||</a>
   </div>
 </div>
 
@@ -203,7 +204,7 @@ nav_main: true
     critical essay • <a href="https://sites.google.com/charlottelatin.org/kathrynwufinalportfolio/greatest-hits/scholastics#h.yy4226dnkpbd" target="_blank"><em>To Poiein or To Pathein</em>: Passivity In-Action in <em>The Kite Runner</em></a><br />
     short story • excerpts • <a href="https://sites.google.com/charlottelatin.org/kathrynwufinalportfolio/greatest-hits/scholastics#h.reuo9zz4uhze" target="_blank">Dead Air in the Last Dark Age</a><br />
     poem • <a href="https://sites.google.com/charlottelatin.org/kathrynwufinalportfolio/greatest-hits/scholastics#h.uw4ezqgtua2p" target="_blank">Santa Maria Sopra Minerva</a><br />
-    <a href="https://sites.google.com/charlottelatin.org/kathrynwufinalportfolio/greatest-hits/scholastics" target="_blank">View full collection</a>
+    <a href="https://sites.google.com/charlottelatin.org/kathrynwufinalportfolio/greatest-hits/scholastics" target="_blank">|| View full collection ||</a>
   </div>
 </div>
 

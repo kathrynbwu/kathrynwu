@@ -5,6 +5,7 @@ week_order: 2
 permalink: /research/neuralengineering/week2/
 nav_exclude: true
 ---
+## Plasma Bonding, Coating, and Dissection
 ---
 ## Day 1 ∙ Jun 23 {#day-1}
 ---
@@ -39,6 +40,8 @@ We place the bonded PDMS-glass device into a sterile plastic bag and seal it. An
 ---
 ## Day 2 ∙ Jun 24 {#day-2}
 ---
+### ESTIM Paper Review
+
 I reviewed my notes on the [ESTIM paper](https://www.cell.com/action/showPdf?pii=S2589-0042%2824%2900273-6#page=11.61).
 
 Summary
@@ -122,7 +125,7 @@ Limitations
 ---
 ## Day 3 ∙ Jun 25 {#day-3}
 ---
-### Coating Day: Cleaning Cycles and Prepping
+### Coating Day 1: Cleaning Cycles and Prepping
 
 General Lab Practices and Microfluidic Device Handling
 
@@ -172,7 +175,7 @@ Workflow:
 ---
 ## Day 4 ∙ Jun 26 {#day-4}
 ---
-### Coating Day 2: With Media
+### Coating Day 2: Experimental and Complete Media
 
 This was the second day of the surface coating process. The protocol for today followed a sequence of one distilled water water wash, one PBS (phosphate-buffered saline) wash, one wash with experimental media, and finally the addition of complete media. The complete media is compositionally similar to the experimental media but includes additional supplements necessary for optimal cell growth and viability. 
 

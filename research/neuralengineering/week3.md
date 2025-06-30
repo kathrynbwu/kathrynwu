@@ -5,13 +5,19 @@ week_order: 3
 permalink: /research/neuralengineering/week3/
 nav_exclude: true
 ---
+## Imaging
+---
+## Day 1: Jun 30 {#day-1} 
+---
+### Meeting 
 
-## Day 1 {#day-1}
+Today was another monday meeting. 
 
-## Day 2 {#day-2}
 
-## Day 3 {#day-3}
+## Day 2: July 1 {#day-2}
 
-## Day 4 {#day-4}
+## Day 3: July 2 {#day-3}
 
-## Day 5 {#day-5}
+## Day 4: July 3 {#day-4}
+
+## Day 5: July 4 {#day-5}
