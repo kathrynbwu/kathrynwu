@@ -20,7 +20,7 @@ nav_exclude: true
   />
 </div>
 
-In my first conversation with Dr. In Hong Yang, he posed a query to me: if there was a wire suspended in a rectangular prism of water (or any aqueous solution as he clarified upon my further query) and we wanted to isolate dyes on either side so that they do not mix, how would I go about doing that? My response involved something like turning the prism onto its smallest face so that it stands vertically, securing the wire, and using different densities of solution to dye either side.
+In my first conversation with Dr. In Hong Yang, he gave me a conceptual challenge: if there was a wire suspended in a rectangular prism of water (or any aqueous solution as he clarified upon my further inquiry) and we wanted to isolate dyes on either side so that they do not mix, how would I go about doing that? My response involved something like turning the prism onto its smallest face so that it stands vertically, securing the wire, and using different densities of solution to dye either side.
 
 <div style="flex-shrink: 0;">
   <img 
@@ -66,7 +66,7 @@ The complete process involves photolithography, soft lithography, and oxygen pla
 ---
 ### Microfluidic Compartmentalized Culture Device Fabrication
 
-On this day, I began my training on how to make this device. We started by making polydimethylsiloxane (PDMS), a silicone-based organic polymer with the important quality of being non-toxic and biocompatible. I found it very similar to my [molding and casting](https://fabacademy.org/2025/labs/charlotte/students/kathryn-wu/assignments/week15/) week for Fab Academy, and the knowledge I learned then was pretty applicable. [Khayzaran](https://www.linkedin.com/in/kqubbaj) led us through this process. For that, we required a silicone elastomer and a curing agent, Sylgard 184. We poured the two materials in a 10:1 ratio, respectively; specifically, 50g to 5g. When stirring, we were told to start gently, then become more aggressive, to the point where bubbles are created and visible. The technique to do it best involves lifting with the silicone mixing spatula to trap air with each stir. 
+I began my training on how to make this device. We started by making polydimethylsiloxane (PDMS), a silicone-based organic polymer with the important quality of being non-toxic and biocompatible. I found it very similar to my [molding and casting](https://fabacademy.org/2025/labs/charlotte/students/kathryn-wu/assignments/week15/) week for Fab Academy, and the knowledge I learned then was pretty applicable. [Khayzaran](https://www.linkedin.com/in/kqubbaj) led us through this process. For that, we required a silicone elastomer and a curing agent, Sylgard 184. We poured the two materials in a 10:1 ratio, respectively; specifically, 50g to 5g. When stirring, we were told to start gently, then become more aggressive, to the point where bubbles are created and visible. The technique to do it best involves lifting with the silicone mixing spatula to trap air with each stir. 
 
 <div style="float: left; margin: 0rem 1rem 0.5rem 0rem;">
   <img 
@@ -107,7 +107,7 @@ On this day, I began my training on how to make this device. We started by makin
 
 In the afternoon, we had a discussion on one of the papers we were supposed to read. My notes, comments, and questions are in this document: [Mitochondrial Trafficking as a Protective Mechanism against Chemotherapy Drug-Induced Peripheral Neuropathy.](https://docs.google.com/document/d/1sYdFhHPQYJex4_aRhPhdCMdCwfI4s8BPpJpVCyb21xg/edit?tab=t.0)
 
-But I'll also embed them here for fun:
+But I'll also embed them here:
 
 Abstract:
 - Investigating the site-specific actions of chemotherapy drugs and the neuroprotective effect of Fluocinolone Acetonide (FA) against CIPN (chemo induced peripheral neuropathy)
@@ -166,7 +166,7 @@ aligns with the mitochondrial preservation and trafficking mechanisms proposed f
 - Since PA also shows synergistic anticancer effects with cisplatin, it might be another candidate for combination therapies with FA or similar agents?
 - Or even ESTIM as well?
 
-Khayzaran gave an overview and here are some things she mentioned that I found to be impactful:
+Khayzaran gave an overview and this was an analogy I found to be impactful:
 
 - We don't know the correlation between FA and mitochondria, or even if the correlation is direct
 - It's like a car crash. We know it happened. One car’s front is damaged, another’s back is. But we don't know what hit what?
