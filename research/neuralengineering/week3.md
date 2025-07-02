@@ -28,16 +28,14 @@ Axons do not always grow uniformly: sometimes they extend through all three micr
 
 He also mentioned a researcher at MIT who is working on mitochondrial dynamics, but in a standard monoculture setup (without the use of dual-chamber microfluidic devices). In contrast, traditional high-throughput culture platforms like 96-well plates lack physical compartmentalization and are not designed for spatially segregated axonal analysis.
 
-Finally, Dr. Yang brought up a neuroscience study from approximately 50 years ago (I think that is what I was told) involving a mouse model. In this experiment, the right eye was occluded during development, which led to increased myelination in the left optic pathway. The conclusion was that sensory deprivation in one eye enhanced compensatory activity and myelination in the contralateral visual cortex, likely due to the altered pattern of light-driven neural stimulation.
+Finally, Dr. Yang brought up a neuroscience study involving a mouse model. In this experiment, the right eye was occluded during development, which led to increased myelination in the left optic pathway. The conclusion was that sensory deprivation in one eye enhanced compensatory activity and myelination in the contralateral visual cortex, likely due to the altered pattern of light-driven neural stimulation. This kind of reminded me of the conversation from last Friday during the dissection about keeping active to keep your neurons alive. 
 
-> This kind of reminded me of the conversation from last Friday during the dissection about keeping active to keep your neurons alive. 
-
-Then at the end, Dr. Yang told us about a situation involving Shinya Yamanaka, who was awarded the Nobel Prize in 2012 for his discovery that skin cells could become stem cells (which is so cool). Apparently, prior, he sent his paper to be reviewed at some University (Wisconsin or somewhere else in the Midwest). The researchers there spent a few months replicating his work, but when it hit 3 months, Yamanaka cut them off of the review list. He then went on to get the prize. He was kind of warning us about the environment regarding science research, how a lot of discourse is stifled because of competition and intellectual property theft. I guess he got a happy ending, though it could have ended kind of badly.
+Then at the end, Dr. Yang told us about a situation involving Shinya Yamanaka, who was awarded the Nobel Prize in 2012 for his discovery that skin cells could become stem cells (which is so cool). Apparently, prior, he sent his paper to be reviewed at some University (Wisconsin or somewhere else in the Midwest). The researchers there spent a few months replicating his work, but when it hit 3 months, Yamanaka removed them from the review list. He then went on to get the prize. He was kind of warning us about the environment regarding science research, how a lot of discourse is stifled because of competition and intellectual property theft. I guess he got a happy ending, though it could have ended kind of badly.
 
 ---
 ## Day 2: July 1 {#day-2}
 ---
-
+### Muffins
 ---
 ## Day 3: July 2 {#day-3}
 ---
