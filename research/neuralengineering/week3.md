@@ -17,7 +17,7 @@ Today was another monday meeting. Most of it was Prashant in discussion with Dr.
   <img 
     src="{{ '/assets/images/neuroengineering/week3/0.jpg' | relative_url }}" 
     alt="image" 
-    width="590" 
+    width="600" 
     style="border: 1px solid #292d51; object-fit: cover;" 
   />
 </div>
@@ -35,7 +35,15 @@ Then at the end, Dr. Yang told us about a situation involving Shinya Yamanaka, w
 ---
 ## Day 2: July 1 {#day-2}
 ---
-### Muffins
+### Strawberry White Chocolate Muffins
+
+<div style="flex-shrink: 0;">
+  <img 
+    src="{{ '/assets/images/neuroengineering/week3/3.jpg' | relative_url }}" 
+    alt="image" 
+    width="600" 
+  />
+</div>
 ---
 ## Day 3: July 2 {#day-3}
 ---
@@ -88,7 +96,7 @@ When we were looking at the cells, Khayzaran gave us a lesson on the various ele
 
 6) One chamber showed particularly robust axon growth. The axons were significantly longer than the ones in 3 (this was from my sample, so I’m pretty proud)
 
-7) In one of the channels, the axon kind of grew outisde of the channel then curved back in. Khayzaran asked why that might be, and I suggested improper plasma bonding, which turned out to be correct. My bonding wasn’t perfect, and the PDMS lifted slightly, allowing the axon to slip under channel
+7) In one of the channels, the axon kind of grew outisde of the channel then curved back in. Khayzaran asked why that might be, and I suggested improper plasma bonding, which turned out to be correct. My bonding wasn’t perfect, and the PDMS lifted slightly, allowing the axon to slip under the channel
 
 8) Ideal axon growth appears as a smooth, zig-zag pattern along the channel
 
@@ -121,3 +129,5 @@ To explain, Khayzaran drew some diagrams. What finally clicked was the fact that
 ---
 ## Day 5: July 4 {#day-5}
 ---
+
+Independence Day.

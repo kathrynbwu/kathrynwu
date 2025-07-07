@@ -208,7 +208,7 @@ Dissection Workflow:
   <img 
     src="{{ '/assets/images/neuroengineering/week2/2.png' | relative_url }}" 
     alt="image" 
-    width="590" 
+    width="600" 
     style="border: 1px solid #292d51; object-fit: cover;" 
   />
 </div>
@@ -224,7 +224,7 @@ Dissection Workflow:
   <img 
     src="{{ '/assets/images/neuroengineering/week2/3.png' | relative_url }}" 
     alt="image" 
-    width="590" 
+    width="600" 
     style="border: 1px solid #292d51; object-fit: cover;" 
   />
 </div>
@@ -242,7 +242,7 @@ Dissection Workflow:
   <img 
     src="{{ '/assets/images/neuroengineering/week2/1.png' | relative_url }}" 
     alt="image" 
-    width="590" 
+    width="600" 
     style="border: 1px solid #292d51; object-fit: cover;" 
   />
 </div>

@@ -15,7 +15,7 @@ nav_exclude: true
   <img 
     src="{{ '/assets/images/neuroengineering/week1/1.jpg' | relative_url }}" 
     alt="test sketch" 
-    width="590" 
+    width="600" 
     style="border: 1px solid #292d51; object-fit: cover;" 
   />
 </div>
@@ -39,7 +39,7 @@ Dr. Yang further emphasized that this method was used for a lengthy 30 years. Th
   <img 
     src="{{ '/assets/images/neuroengineering/week1/3.png' | relative_url }}" 
     alt="image" 
-    width="590" 
+    width="600" 
     style="border: 1px solid #292d51; object-fit: cover;" 
   />
 </div>
@@ -50,7 +50,7 @@ This schematic was from a paper by Dr. Yang's lab on [Mitochondrial trafficking 
   <img 
     src="{{ '/assets/images/neuroengineering/week1/4.png' | relative_url }}" 
     alt="image" 
-    width="590" 
+    width="600" 
     style="border: 1px solid #292d51; object-fit: cover;" 
   />
 </div>
@@ -316,7 +316,7 @@ Some interesting figures from [Compartmentalized Microfluidic Platforms: The Unr
   <img 
     src="{{ '/assets/images/neuroengineering/week1/11.png' | relative_url }}" 
     alt="test sketch" 
-    width="590" 
+    width="600" 
     style="border: 1px solid #292d51; object-fit: cover;" 
   />
 </div>
@@ -325,7 +325,7 @@ Some interesting figures from [Compartmentalized Microfluidic Platforms: The Unr
   <img 
     src="{{ '/assets/images/neuroengineering/week1/12.png' | relative_url }}" 
     alt="test sketch" 
-    width="590" 
+    width="600" 
     style="border: 1px solid #292d51; object-fit: cover;" 
   />
 </div>
